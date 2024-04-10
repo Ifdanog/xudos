@@ -1,0 +1,170 @@
+.order-card {
+    color: #fff;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+  .bg-c-blue {
+    background: #060c11;
+  }
+  
+  .bg-c-green {
+    background: linear-gradient(180deg, #281e11 0%, rgba(66, 47, 24, 0.4) 100%);
+  }
+  
+  .bg-c-yellow {
+    background: linear-gradient(180deg, #333271 0%, rgba(19, 23, 28, 0.55) 100%);
+  }
+  
+  .bg-c-pink {
+    background: linear-gradient(
+      180deg,
+      rgba(136, 81, 243, 0.3) 0%,
+      rgba(19, 23, 28, 0.55) 100%
+    );
+  }
+  
+  .row {
+    display: flex;
+    gap: 44px;
+  }
+  
+  .card {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+    box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+    border: none;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    padding: 5px;
+    padding-right: 96px;
+  }
+  
+  .card .card-block {
+    padding: 25px;
+  }
+  
+  .order-card i {
+    font-size: 26px;
+  }
+  
+  .f-left {
+    float: left;
+  }
+  
+  .f-right {
+    float: right;
+  }
+  
+  .m-b-0{
+    position: relative;
+    top: 20px;
+    right: 19px;
+    font-weight: initial;
+  }
+
+  .m-b-1{
+    position: relative;
+bottom: 8px;
+right: 19px;
+font-weight: initial;
+} 
+  
+  
+  .m-b-20{
+    position: relative;
+    bottom: 9px;
+    left: 8px;
+    font-weight: initial;
+  }
+  .m-b-21{
+    position: relative;
+    /* right: 10px; */
+    bottom: 13px;
+    font-weight: initial;
+  }
+  .Digits{
+    position: relative;
+    bottom: 33px;
+    left: 120px;
+    font-weight: initial;
+  }
+  
+  
+  .Digits-3{
+    position: relative;
+    bottom: 50px;
+    left: 164px;
+    font-weight: initial;
+  }
+  
+  
+ .Digits-1{
+  position: relative;
+  bottom: 29px;
+  left: 125px;
+  font-weight: initial;
+ }
+
+ .Digits-4{
+  position: relative;
+  bottom: 35px;
+  left: 102px;
+  font-weight: initial;
+ }
+.card-1{
+  border-radius: 5px;
+
+  box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+  border: none;
+  margin-bottom: 30px;
+ 
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  padding: 33px;
+    padding-right: 13px;
+  padding-right: 96px;
+  border-radius: 5px;
+  background: #060C11;
+}
+.card-4{
+  border-radius: 5px;
+
+  box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+  border: none;
+  margin-bottom: 30px;
+ 
+  transition: all 0.3s ease-in-out;
+  width: 90%;
+  padding: 33px;
+    padding-right: 13px;
+  padding-right: 96px;
+  border-radius: 5px;
+background: linear-gradient(180deg, rgba(136, 81, 243, 0.30) 0%, rgba(19, 23, 28, 0.55) 100%);
+}
+
+.ethrium-digit{
+  position: relative;
+  top: 7px;
+  right: 15px;
+  font-weight: initial;
+}
+
+.card-3{
+  border-radius: 5px;
+  box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+  border: none;
+  margin-bottom: 30px;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  padding: 22px;
+    padding-right: 14px;
+  padding-right: 13px;
+  padding-right: 124px;
+  border-radius: 5px;
+  background: linear-gradient(180deg, #333271 0%, rgba(19, 23, 28, 0.55) 100%);
+}

@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;900&display=swap');
+
+:root {
+  --primary: #0000ff;
+  --secondary: #3d3d3d; 
+  --white: #fff;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+
+body{
+	background: var(--secondary);
+	padding: 50px;
+	color: var(--secondary);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 14px;
+    /* overflow: hidden; */
+  overflow-x: hidden;
+}
+
+.bold{
+	font-weight: 900;
+}
+
+.light{
+	font-weight: 100;
+}
+
+.wrapper{
+	background: var(--white);
+	padding: 30px;
+}
+
+.invoice_wrapper{
+	border: 3px solid  #000;
+	width: 595px;
+	max-width: 100%;
+    stroke-width: 1px;
+stroke: #000;
+height: 80vh;
+
+
+}
+
+.invoice_wrapper-2{
+    border: 3px solid  #000;
+	width: 595px;
+	max-width: 100%;
+    stroke-width: 1px;
+stroke: #000;
+height: 80vh;
+}
+
+.invoice_wrapper .header .logo_invoice_wrap,
+.invoice_wrapper .header .bill_total_wrap{
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+}
+
+.invoice_wrapper .header .logo_sec{
+	display: flex;
+	align-items: center;
+}
+
+.invoice_wrapper .header .logo_sec .title_wrap{
+	margin-left: 5px;
+}
+
+.invoice_wrapper .header .logo_sec .title_wrap .title{
+	/* text-transform: uppercase; */
+	font-size: 18px;
+
+}
+
+.invoice_wrapper .header .logo_sec .title_wrap .sub_title{
+	font-size: 12px;
+}
+
+.invoice_wrapper .header .invoice_sec,
+.invoice_wrapper .header .bill_total_wrap .total_wrap{
+	text-align: right;
+    width: 140px;
+height: 32px;
+flex-shrink: 0;
+color: #2A2A2A;
+
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+position: relative;
+top: 64px;
+right: 29px;
+}
+
+.invoice_wrapper .header .invoice_sec .invoice{
+	font-size: 28px;
+	color: var(--primary);
+}
+
+
+
+.invoice_wrapper-2 .header .logo_invoice_wrap,
+.invoice_wrapper-2 .header .bill_total_wrap{
+	display: flex;
+	justify-content: space-between;
+	/* padding: 30px; */
+}
+
+
+
+.invoice_wrapper-2 .header .logo_sec .title_wrap .sub_title{
+	font-size: 12px;
+}
+
+.invoice_wrapper-2 .header .invoice_sec,
+.invoice_wrapper-2 .header .bill_total_wrap .total_wrap{
+	text-align: right;
+}
+
+.invoice_wrapper-2 .header .invoice_sec .invoice{
+	font-size: 28px;
+	color: var(--primary);
+} */
+
+
+
+
+
+
+
+/* extra  */
+
+
+.Logo-title-1{
+  
+width: 140px;
+height: 32px;
+flex-shrink: 0;
+color: #2A2A2A;
+
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+position: relative;
+top: 64px;
+right: 29px;
+}
+
+
+.logo-picture{
+    position: relative;
+    right: 122px;
+    bottom: 48px;
+}
+
+
+
+.Left-side{
+    position: relative;
+    top: 12px;
+    left: 45px;
+}
+
+.Customer-name{
+    position: relative;
+    top: 12px;
+    left: 43px;
+} 
+
+.Name-john{
+    position: relative;
+    left: 122px;
+    bottom: 16px;
+}
+
+
+
+.Number-1{
+    position: relative;
+    left: 122px;
+    bottom: 16px;
+}
+
+.mail-1{
+    position: relative;
+    left: 122px;
+    bottom: 16px;
+}
+
+
+
+
+.right-side{
+    position: relative;  
+    left: 59%;
+    top: -161px;
+}
+
+.invoice-number{
+    position: relative;
+    left: 122px;
+    bottom: 16px;
+}
+
+.date-1{
+    position: relative;
+    left: 122px;
+    bottom: 16px;
+}
+
+.date-2{
+    position: relative;
+    left: 122px;
+    bottom: 16px;
+}
+
+
+
+
+.walet-ist{
+    position: relative;
+    top: 22px;
+
+}
+.wallet-random-adrees{
+    position: relative;
+    left: 162px;
+    bottom: 16px;
+}
+
+
+.walet-2nd{
+    position: relative;
+    top: 17px;
+  
+}
+.wallet-adress-2{
+    position: relative;
+    left: 162px;
+    bottom: 16px; 
+}
+
+
+.section-2{
+
+    width: 497px;
+height: 40px;
+flex-shrink: 0;
+background: #E2E2E4;
+position: relative;
+bottom: 12px;
+left: 43px;
+}
+
+.store-name{
+ position: relative;
+ left: 26px;
+ top: 11px;
+ color: #2A2A2A;
+font-family: Montserrat;
+/* font-size: 10px; */
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.cashier-name{
+    position: relative;
+    left: 135px;
+    bottom: 6px;
+    color: #2A2A2A;
+font-family: Montserrat;
+/* font-size: 10px; */
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.amount-transaction{
+    position: relative;
+    left: 253px;
+    bottom: 23px;
+    color: #2A2A2A;
+font-family: Montserrat;
+/* font-size: 10px; */
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.ch-ain{
+    position: relative;
+    left: 420px;
+    bottom: 39px;
+    color: #2A2A2A;
+font-family: Montserrat;
+/* font-size: 10px; */
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.sub-section-2{
+    width: 497px;
+height: 40px;
+flex-shrink: 0;
+border: 1px solid #E2E2E4;
+position: relative;
+bottom: 12px;
+left: 43px;
+}
+
+
+.dazpay-text{
+    position: relative;
+    left: 27px;
+    top: 11px;
+}
+.john-text{
+    position: relative;
+    left: 135px;
+    bottom: 6px;
+    color: #2A2A2A;
+/* font-family: Montserrat; */
+/* font-size: 9px; */
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.amount-text{
+    position: relative;
+    left: 253px;
+    bottom: 23px;
+}
+.bn-text{
+    position: relative;
+    left: 420px;
+    bottom: 39px;
+}
+
+.print-invoice-2{
+    width: 182px;
+    height: 48px;
+    flex-shrink: 0;
+    margin-top: 84px;
+    background-color:#FBFBFB;
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+ background: #FBFBFB;
+ margin-left: 443px;
+ color: #000;
+ /* font-family: Montserrat; */
+ font-size: 20px;
+ font-style: normal;
+ font-weight: 500;
+ line-height: normal;
+ /* text-transform: uppercase; */
+ position: relative;
+ top: 46px;
+
+}
+.printer-img{
+    /* margin-left: 12px; */
+    position: relative;
+    left: 12px;
+}
+
+
+/* print qr css  */
+
+
+.wallet-adress-2-print-form{
+    position: relative;
+    left: 149px;
+    bottom: 16px; 
+    color: #6A6AFE;
+}
+
+.walet-print-form{
+    position: relative;
+    top: 66px;
+}
+
+.date-2-print-form{
+    position: relative;
+    left: 46px;
+    bottom: 16px;
+}
+
+.date-print-form{
+    position: relative;
+    left: 424px;
+    top: 36px; 
+  }
+
+
+.print-form-wallet-2{
+    position: relative;
+    left: 44px;
+    color: #2A2A2A;
+/* font-family: Montserrat; */
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.Logo-title-print-form{
+    width: 140px;
+height: 32px;
+flex-shrink: 0;
+color: #2A2A2A;
+
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+position: relative;
+top: 11px;
+right: 29px;
+}
+
+.logo-picture-print-form{
+    position: relative;
+    bottom: 23px;
+    right: 154px;
+}
+
+.section-2-print-form{
+    width: 497px;
+    height: 40px;
+    flex-shrink: 0;
+    background: #E2E2E4;
+    position: relative;
+    top: 60px;
+    left: 43px;
+}
+
+.sub-section-2-print-form{
+    width: 497px;
+    height: 40px;
+    flex-shrink: 0;
+    border: 1px solid #E2E2E4;
+    position: relative;
+    top: 60px;
+    left: 43px;
+}
+
+.Qr-code-scan{
+position: relative;
+left: 200px;
+top: 16px;
+}
+
+
+
+.scan-picture{
+    
+        position: relative;
+        bottom: 20px;
+        left: 0px;
+        color: #000;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+}
+
+.title {
+    color: #2A2A2A;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+position: relative;
+top: 8px;
+left: 29px;
+}
+
+.printer-img-print-form{
+    position: relative;
+    left: 12px;
+}
+
+.print-invoice-2-print-form{
+    width: 182px;
+    height: 48px;
+    flex-shrink: 0;
+    margin-top: 84px;
+    background-color:#FBFBFB;
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+    background: #FBFBFB;
+    margin-left: 443px;
+    color: #000;
+    /* font-family: Montserrat; */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    /* text-transform: uppercase; */
+    position: relative;
+    top: 101px;
+}
+

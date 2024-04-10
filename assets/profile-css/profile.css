@@ -1,0 +1,248 @@
+.container{
+    border-radius: 10px;
+background: #13171C;
+
+width: 498px;
+height: 376px;
+flex-shrink: 0;
+margin-left: 12px;
+display: flex;
+
+align-items: center;
+
+position: relative;
+top: 183px;
+
+}
+
+
+.profile_details_text{
+    color: #FBFBFB;
+/* font-family: Montserrat; */
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 19px;
+position: relative;
+top: 7px;
+left: 7px;
+
+display: flex;
+}
+.profile_text{
+    color: #FBFBFB;
+    /* font-family: Montserrat; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: relative;
+    top: 22px;
+    margin-right: 300px;
+}
+
+
+.form-control{
+    width: 448px;
+height: 40px;
+flex-shrink: 0;
+stroke-width: 1px;
+stroke: #FBFBFB;
+margin-left: 19px;
+margin-top: 12px;
+border-radius: 12px;
+background: #13171C;
+color: white;
+padding-left: 10px;
+}
+.form-input{
+    width: 448px;
+    height: 40px;
+    flex-shrink: 0;
+    stroke-width: 1px;
+    stroke: #FBFBFB;
+    margin-left: 4px;
+    margin-top: 27px;
+    border-radius: 12px;
+    background: #13171C;
+    color: white;
+    padding-left: 10px;
+}
+
+.btn{
+    width: 455px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FBFBFB;
+    margin-left: 19px;
+    margin-top: 0px;
+    cursor: pointer;
+    color: #2A2A2A;
+/* font-family: Montserrat; */
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.button-update{
+    width: 455px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FBFBFB;
+    margin-left: 19px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: #2A2A2A;
+/* font-family: Montserrat; */
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.form-group {
+    margin-top: 10px;
+}
+
+.container-profile{
+    width: 498px;
+height: 169px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #13171C;
+margin-left: 12px;
+margin-top: 200px;
+margin-bottom: 12px;
+position: relative;
+top: 179px;
+right: 7px;
+}
+
+
+.profile-img-icon{
+    width: 70px;
+height: 70px;
+flex-shrink: 0;
+border-radius: 70px;
+/* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+position: relative;
+left: 11%;
+top: 13px;
+
+}
+
+
+.side-img{
+    width: 90px;
+height: 90px;
+flex-shrink: 0;
+opacity: 0.20000000298023224;
+/* background: url(<path-to-image>), lightgray 50% / contain no-repeat; */
+mix-blend-mode: luminosity;
+position: relative;
+left: 32%;
+}
+
+.text{
+        width: 120px;
+        height: 35px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #FBFBFB;
+        margin-left: -9px;
+        margin-top: 123px;
+        cursor: pointer;
+        color: #2A2A2A;
+        /* font-family: Montserrat; */
+        font-size: 14px;
+        position: relative;
+}
+.text-2{
+    color: #C1C1C1;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: relative;
+left: 2%;
+top: 22px;
+}
+
+@media (max-width: 768px) {
+    /* Adjust the container width and margin-left for smaller screens */
+   .container{
+    width: 100%;
+    margin-left: 0;
+   }
+
+  }
+   @media (max-width: 768px) {
+    /* Adjust the font-size and margin-left for smaller screens */
+    .profile_details_text{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+  }
+
+  @media (max-width: 768px) {
+    /* Adjust the width and margin-left for smaller screens */
+   .form-control{
+    width: 100%;
+    margin-left: 10px;
+   }
+  }
+
+  @media (max-width: 768px) {
+    /* Adjust the width and margin-left for smaller screens */
+   .btn{
+    width: 100%;
+    margin-left: 10px;
+   }
+  }
+
+
+
+  @media (max-width: 768px) {
+    /* Adjust the width and margin-left for smaller screens */
+    .container-profile{
+        width: 100%;
+        margin-left: 0;
+    }
+
+  }
+
+  @media (max-width: 768px) {
+    /* Adjust the left position for smaller screens */
+   .profile-img-icon{
+    left: 35%;
+   }
+
+  }
+
+  @media (max-width: 768px) {
+    /* Adjust the left position for smaller screens */
+    .side-img{
+        left: 50%;
+    }
+
+  }
+
+  @media (max-width: 768px) {
+    /* Adjust the left position for smaller screens */
+   .text{
+    left: 30%;
+   }
+
+  }
+
+  @media (max-width: 768px) {
+    /* Adjust the left position for smaller screens */
+   .text-2{
+    left: 25%;
+   }
+
+  }

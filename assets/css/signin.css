@@ -1,0 +1,475 @@
+.container {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+}
+.center-background {
+  background-color: #13171c;
+  width: 983px;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.cenTer {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+}
+.main-logo {
+  display: flex;
+  column-gap: 12px;
+  color: white;
+  margin-left: 128px;
+  margin-top: 65px;
+
+  align-items: center;
+}
+.logo-img {
+  width: 51.84px;
+  height: 47px;
+}
+.logo-Name {
+  font-family: Montserrat;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.not-Robert {
+  display: flex;
+  color: #6a6c6f;
+  column-gap: 12px;
+  align-items: center;
+  background-color: white;
+  border: 1px solid white;
+  width: 176px;
+  border-radius: 12px;
+  justify-content: center;
+  margin-top: 15px;
+  margin-left: 4px;
+}
+
+.robort-Pic {
+  margin-top: 10px;
+}
+
+.inputcontainer {
+  display: inline-grid;
+  gap: 11px;
+  margin-left: 5%;
+  width: 39%;
+  margin-top: 5%;
+}
+.email-input,
+.password-input {
+  width: 100%;
+  max-width: 410px;
+  height: 40px;
+  padding: 3px 10px;
+  border-radius: 12px;
+}
+
+.btn {
+    border-radius: 11px;
+    border: 0;
+    font-size: 1rem;
+    margin: 1rem 0;
+    padding: 0.8rem 1rem;
+    white-space: nowrap;
+    cursor: pointer;
+    margin-left: 47px;
+}
+
+.btn--primary {
+    background: #5D982E;
+    color: white;
+}
+
+.btn--primary:hover {
+    background: #5D982E;
+}
+
+.btn-block {
+    width: 39%;
+    display: inline;
+}
+.forget {
+  color: #fbfbfb;
+  margin-left: 18%;
+}
+
+.welcome-back {
+  margin-top: 29px;
+  color: #fbfbfb;
+}
+
+.welcomeText {
+  margin-left: 18%;
+}
+.BannerImage {
+  margin-left: 54%;
+}
+.banner {
+  margin-top: -426px;
+}
+
+.Sidebanner {
+  width: 432.67px;
+  height: 426px;
+}
+
+@media only screen and (max-width:991px) {
+    .cenTer {
+        padding-top: 10%;
+      }
+
+      .center-background {
+          width: 46%;
+        height: auto;
+        padding: 47px;
+        padding-bottom: 470px;
+        padding-right: 42px;
+      }
+
+      .main-logo {
+          margin-left: 160px;
+        justify-content: center;
+        margin-top: 30px;
+        margin-right: 180px;
+      }
+
+      .welcomeText{
+        margin-left: 39%;
+      }
+
+      .logo-Name {
+        font-size: 28px;
+      }
+
+      .BannerImage {
+        display: none;
+       }
+
+      .form {
+        order: 3;
+      }
+
+      .not-Robert {
+        margin-left: 0;
+        margin-top: 20px;
+        order: 4;
+      }
+
+      .sinin-Button {
+        order: 5;
+        width: 93%;
+      }
+      .btn-singin{
+        margin-left: -25px;
+
+      }
+
+      .inputcontainer {
+        margin-left: 0;
+        width: 90%;
+        order: 2;
+      }
+
+      .buTon {
+        margin-left: 32px;
+        transform: none;
+        width: 80%;
+      }
+
+      .forget {
+        margin-left: 194px;
+        text-align: center;
+      }
+    }
+
+
+
+
+@media (max-width: 768px) {
+    .cenTer {
+      padding-top: 10%;
+    }
+
+    .center-background {
+        width: 46%;
+      height: auto;
+      padding: 47px;
+      padding-bottom: 470px;
+      padding-right: 42px;
+    }
+
+    .main-logo {
+      margin-left: 147px;
+      justify-content: center;
+      margin-top: 30px;
+      margin-right: 180px;
+    }
+
+    .welcomeText{
+        margin-left: 34%;
+    }
+
+    .logo-Name {
+      font-size: 28px;
+    }
+
+    .BannerImage {
+     display: none;
+    }
+
+    .form {
+      order: 3;
+    }
+
+    .not-Robert {
+      margin-left: 0;
+      margin-top: 20px;
+      order: 4;
+    }
+
+    .sinin-Button {
+      order: 5;
+      width: 94%;
+    }
+    .btn-singin{
+        margin-left: -31px;
+
+    }
+
+    .inputcontainer {
+      margin-left: 0;
+      width: 90%;
+      order: 2;
+    }
+
+    .buTon {
+        margin-left: 32px;
+      transform: none;
+      width: 80%;
+    }
+
+    .forget {
+        margin-left: 142px;
+      text-align: center;
+    }
+  }
+
+  @media only screen and (max-width:640px) {
+
+    .cenTer {
+        padding-top: 10%;
+      }
+
+      .center-background {
+          width: 46%;
+        height: auto;
+        padding: 47px;
+        padding-bottom: 470px;
+        padding-right: 42px;
+      }
+
+      .main-logo {
+        margin-left: 115px;
+        justify-content: center;
+        margin-top: 30px;
+        margin-right: 180px;
+      }
+
+      .welcomeText{
+        margin-left: 32%;
+      }
+
+      .logo-Name {
+        font-size: 28px;
+      }
+
+      .BannerImage {
+        display: none;
+       }
+
+      .form {
+        order: 3;
+      }
+
+      .not-Robert {
+        margin-left: -14px;
+        margin-top: 20px;
+        order: 4;
+      }
+
+      .sinin-Button {
+        order: 5;
+        width: 100%;
+      }
+      .btn-singin{
+        margin-left: -45px;
+
+      }
+
+      .inputcontainer {
+        margin-left: -16px;
+        width: 102%;
+        order: 2;
+      }
+
+      .buTon {
+        margin-left: 32px;
+        transform: none;
+        width: 80%;
+      }
+
+      .forget {
+        margin-left: 72px;
+        text-align: center;
+      }
+    }
+
+
+
+
+  @media (max-width: 480px) {
+    .cenTer {
+        padding-top: 10%;
+      }
+
+      .center-background {
+          width: 46%;
+        height: auto;
+        padding: 47px;
+        padding-bottom: 470px;
+        padding-right: 42px;
+      }
+
+      .main-logo {
+        margin-left: 88px;
+        justify-content: center;
+        margin-top: 30px;
+        margin-right: 180px;
+      }
+
+      .welcomeText{
+        margin-left: 24%;
+      }
+
+      .logo-Name {
+        font-size: 28px;
+      }
+
+      .BannerImage {
+        display: none;
+       }
+
+      .form {
+        order: 3;
+      }
+
+      .not-Robert {
+        margin-left: -24px;
+        margin-top: 20px;
+        order: 4;
+      }
+
+      .sinin-Button {
+        order: 5;
+        width: 105%;
+
+      }
+      .btn-singin{
+        margin-left: -53px;
+
+      }
+
+      .inputcontainer {
+        width: 112%;
+        margin-left: -25px;
+      order: 2;
+      }
+
+      .buTon {
+        width: 100%;
+        margin-left: 0px;
+        transform: none;
+      }
+
+      .forget {
+        margin-left: 43px;
+        text-align: center;
+      }
+    }
+
+
+  @media only screen and (max-width:375px) {
+    .cenTer {
+        padding-top: 10%;
+      }
+
+      .main-logo {
+        margin-left: 88px;
+        justify-content: center;
+        margin-top: 30px;
+        margin-right: 180px;
+    }
+
+    .center-background {
+        width: 46%;
+        height: auto;
+        padding: 47px;
+        padding-bottom: 470px;
+        padding-right: 62px;
+    }
+
+    .logo-Name {
+      font-size: 24px;
+    }
+
+    .BannerImage {
+        display: none;
+       }
+
+    .form {
+      order: 3;
+    }
+
+    .not-Robert {
+        width: 92%;
+        margin-left: -23px;
+      margin-top: 20px;
+      order: 4;
+      justify-content: flex-start;
+    }
+
+    .inputcontainer {
+        width: 125%;
+        margin-left: -25px;
+      order: 2;
+    }
+
+    .buTon {
+      width: 100%;
+      margin-left: 0px;
+      transform: none;
+    }
+    .sinin-Button {
+        order: 5;
+        width: 118%;
+
+      }
+
+      .btn-singin {
+        margin-left: -57px;
+      }
+
+      .forget {
+        margin-left: 43px;
+        text-align: center;
+      }
+  }
+
+

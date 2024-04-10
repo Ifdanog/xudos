@@ -1,0 +1,56 @@
+.download-container {
+  display: flex;
+  align-items: center;
+}
+
+.download-button {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: black;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.date-range {
+  background-color: white;
+  border-radius: 5px 0 0 5px;
+  padding: 5px 10px;
+  color: black;
+}
+
+.download-button i {
+  margin-left: 5px;
+}
+
+.date-range {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  /* Adjust as needed */
+  height: 30px;
+  /* Adjust as needed */
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.date-range input {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  color: black;
+  outline: none;
+}
+
+.date-range i {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  visibility: hidden;
+}

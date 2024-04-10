@@ -1,0 +1,333 @@
+.container-personal{
+
+
+    border-radius: 10px;
+    background: rgb(19, 23, 28);
+
+    width: 33rem;
+    height: 26rem;
+
+    flex-shrink: 0;
+    margin-left: 2px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: -2rem;
+}
+
+
+
+
+
+
+.active-heading {
+    color: blue; /* Change this to the desired color */
+  }
+
+.Conatiner-2-passowrd{
+ 
+    border-radius: 10px;
+    background: rgb(19, 23, 28);
+    width: 33rem;
+    height: 24rem;
+    flex-shrink: 0;
+    margin-left: 2px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 5.2rem;
+
+}
+
+
+
+
+
+.update-text{
+    position: relative;
+    bottom: 16rem;
+    /* right: -6rem; */
+    left: 15rem;
+}
+
+.Personal-info-section{
+  width: 12rem;
+    height: 3rem;
+    border-radius: 5px;
+    background-color: #13171C;
+    color: white;
+    /* left: 2rem; */
+    padding-top: 1rem;
+    cursor: pointer;   
+    position: relative;
+    bottom: -3.5rem;
+    left: 43rem;
+    padding-left: 11px;
+}
+    
+
+
+.Private-info-section{
+
+    width: 10rem;
+    height: 3rem;
+    border-radius: 5px;
+    background-color: #13171C;
+    color: white;
+    /* left: 2rem; */
+    /* right: 7rem; */
+    padding-top: 1rem;
+    margin-top: -3rem;
+    margin-left: 23rem;
+    cursor: pointer;
+    position: relative;
+    bottom: -3.5rem;
+    padding-left: 17px;
+    left: 43rem;
+
+}
+
+
+
+
+
+.security-info-section{
+  
+ 
+    width: 9rem;
+    height: 3rem;
+    border-radius: 5px;
+    background-color: #13171C;
+    color: white;
+    /* left: 2rem; */
+    padding-top: 1rem;
+    padding-left: 40px;
+    padding-right: 63px;
+    cursor: pointer;
+    margin-top: -3rem;
+    margin-left: 13rem;
+    cursor: pointer;
+    position: relative;
+    bottom: -3.5rem;
+    left: 43rem;
+
+
+}
+
+
+
+
+.Note-paragrph-text{
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 30rem;
+    /* height: 2rem; */
+    margin-top: 2rem;
+    margin-left: 1rem;
+    padding-left: 28px;
+}
+
+.Conatiner-3-tetraportion{
+   
+    border-radius: 10px;
+    background: rgb(19, 23, 28);
+
+    width: 33rem;
+    height: 26rem;
+
+    flex-shrink: 0;
+    margin-left: 2px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 4.2rem;
+
+   
+}
+
+.profile_details_text{
+    color: #FBFBFB;
+    /* font-family: Montserrat; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 38px;
+    position: relative;
+    top: 4px;
+    /* left: 25px; */
+    display: flex;
+    margin-top: 1rem;
+}
+
+
+.profile_details_text-2{
+    color: #FBFBFB;
+    /* font-family: Montserrat; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 38px;
+    position: relative;
+    top: 15px;
+    left: 7px;
+    display: flex;
+    margin-top: 1rem;
+}
+
+
+.form-control{
+    width: 28rem;
+    height: 2.5rem;
+    border-radius: 12px;
+    background: #13171C;
+    color: #C1C1C1;
+    padding-left: 1rem;
+    /* margin-left: 0rem; */
+    margin-top: 1rem;
+}
+
+.form-control-2{
+    width: 28rem;
+    height: 2.5rem;
+    border-radius: 12px;
+    background: #13171C;
+    color: #C1C1C1;
+    padding-left: 1rem;
+    /* margin-left: 0rem; */
+    margin-top: 1.5rem;
+}
+
+.btn-update-pass{
+    width: 28rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FBFBFB;
+    margin-left: 0rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    color: #2A2A2A;
+    /* font-family: Montserrat; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.btn-only-update{
+    width: 28rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FBFBFB;
+    margin-left: 0rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    color: #2A2A2A;
+    /* font-family: Montserrat; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.btn{
+    width: 28rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FBFBFB;
+    margin-left: 0rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    color: #2A2A2A;
+    /* font-family: Montserrat; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.container-profile{
+    width: 523px;
+    height: 169px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgb(19, 23, 28);
+    margin-left: 12px;
+    margin-bottom: 12px;
+    position: relative;
+    right: 0.5rem;
+    bottom: -2rem;
+}
+
+
+
+
+.profile-img-icon{
+    width: 70px;
+height: 70px;
+flex-shrink: 0;
+border-radius: 70px;
+/* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+position: relative;
+left: 11%;
+top: 13px;
+
+}
+
+
+.side-img{
+    width: 90px;
+height: 90px;
+flex-shrink: 0;
+opacity: 0.20000000298023224;
+/* background: url(<path-to-image>), lightgray 50% / contain no-repeat; */
+mix-blend-mode: luminosity;
+position: relative;
+left: 32%;
+}
+
+.text{
+    color: #FBFBFB;
+/* font-family: Montserrat; */
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+position: relative;
+left: 2%;
+top: 14px;
+cursor: pointer;
+}
+.text-2{
+    color: #C1C1C1;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: relative;
+left: 2%;
+top: 22px;
+}
+
+
+
+
+
+
+
+      
+  
+
+
+

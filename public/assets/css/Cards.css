@@ -1,0 +1,160 @@
+.order-card {
+    color: #fff;
+  }
+
+  .bg-c-blue {
+    background: #060c11;
+  }
+
+  .bg-c-green {
+    background: linear-gradient(180deg, #281e11 0%, rgba(66, 47, 24, 0.4) 100%);
+  }
+
+  .bg-c-yellow {
+    background: linear-gradient(180deg, #333271 0%, rgba(19, 23, 28, 0.55) 100%);
+  }
+
+  .bg-c-pink {
+    background: linear-gradient(
+      180deg,
+      rgba(136, 81, 243, 0.3) 0%,
+      rgba(19, 23, 28, 0.55) 100%
+    );
+  }
+
+  .row {
+    display: flex;
+    gap: 44px;
+  }
+
+
+  .card .card-block {
+    padding: 25px;
+  }
+
+  .order-card i {
+    font-size: 26px;
+  }
+
+  .f-left {
+    float: left;
+  }
+
+  .f-right {
+    float: right;
+  }
+
+  .m-b-0{
+      position: relative;
+      top: 49px;
+      right: 19px;
+      font-weight: initial;
+  }
+
+  .m-b-12{
+    position: relative;
+    top: 29px;
+    right: 19px;
+    font-weight: initial;
+  }
+  .m-b-13{
+    position: relative;
+    top: 32px;
+    right: 19px;
+    font-weight: initial;
+  }
+  .m-b-14{
+    position: relative;
+    top: 29px;
+    right: 19px;
+    font-weight: initial;
+  }
+
+  .m-b-1{
+    position: relative;
+    bottom: 13px;
+    right: 16px;
+font-weight: initial;
+}
+
+
+  .m-b-20{
+    position: relative;
+    bottom: 9px;
+    left: 14px;
+    font-weight: initial;
+  }
+  .m-b-21{
+    position: relative;
+    right: 2px;
+    bottom: 14px;
+    font-weight: initial;
+  }
+  .Digits{
+    position: relative;
+    bottom: 33px;
+    left: 136px;
+    font-weight: initial;
+  }
+
+  .Digits-3{
+    position: relative;
+    bottom: 35px;
+    left: 123px;
+    font-weight: initial;
+  }
+
+
+ .Digits-1{
+  position: relative;
+bottom: 29px;
+left: 144px;
+font-weight: initial;
+ }
+
+ .Digits-4{
+  position: relative;
+  bottom: 35px;
+  left: 125px;
+  font-weight: initial;
+ }
+
+ .card {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+    box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+    border: none;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    padding-right: 96px;
+    height: 128px;
+  }
+.card-1{
+  border-radius: 5px;
+  box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+  border: none;
+  margin-bottom: 30px;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  padding: 33px;
+  padding-right: 96px;
+  background: #060C11;
+  height: 128px;
+}
+.card-4{
+  border-radius: 5px;
+
+  box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+  border: none;
+  margin-bottom: 30px;
+
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  padding: 33px;
+    padding-right: 13px;
+  padding-right: 96px;
+  border-radius: 5px;
+background: linear-gradient(180deg, rgba(136, 81, 243, 0.30) 0%, rgba(19, 23, 28, 0.55) 100%);
+}

@@ -1,0 +1,174 @@
+.order-card {
+    color: #fff;
+  }
+
+  .bg-c-blue {
+    background: #060c11;
+  }
+
+  .bg-c-green {
+    background: linear-gradient(180deg, #281e11 0%, rgba(66, 47, 24, 0.4) 100%);
+  }
+
+  .bg-c-yellow {
+    border-radius: 10px;
+    background: linear-gradient(180deg, #333271 0%, #24303F 100%);
+  }
+
+  .bg-c-pink {
+    background: linear-gradient(
+      180deg,
+      rgba(136, 81, 243, 0.3) 0%,
+      rgba(19, 23, 28, 0.55) 100%
+    );
+  }
+
+  .row {
+    display: flex;
+    gap: 104px;
+  }
+
+  .card {
+    border-radius: 10px;
+    -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+    box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+    border: none;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    padding-right: 136px;
+    /* padding-top: 21px; */
+  }
+
+  .card .card-block {
+    padding: 25px;
+  }
+
+  .order-card i {
+    font-size: 26px;
+  }
+
+  .f-left {
+    float: left;
+  }
+
+  .f-right {
+    float: right;
+  }
+
+  .m-b-0{
+      position: relative;
+      top: 18px;
+      right: 19px;
+      font-weight: initial;
+  }
+
+  .m-b-1{
+    position: relative;
+bottom: 8px;
+right: 19px;
+font-weight: initial;
+}
+
+
+  .m-b-20{
+    position: relative;
+    left: 35px;
+    font-weight: initial;
+    top: -6px;
+  }
+
+
+
+  .m-b-21{
+    position: relative;
+    font-weight: initial;
+    left: 56px;
+    color: wheat;
+    top: 10px;
+  }
+  .Digits{
+    position: relative;
+    bottom: 35px;
+    left: 165px;
+    font-weight: initial;
+  }
+
+  .Digits-3{
+    position: relative;
+    bottom: 35px;
+    left: 151px;
+    font-weight: initial;
+  }
+
+
+ .Digits-1{
+  position: relative;
+bottom: 29px;
+left: 144px;
+font-weight: initial;
+ }
+
+ .Digits-4{
+    position: relative;
+    bottom: 37px;
+    left: 146px;
+    font-weight: initial;
+ }
+.card-1{
+  border-radius: 5px;
+
+  box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+  border: none;
+  margin-bottom: 30px;
+
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  padding: 19px;
+    padding-right: 13px;
+    padding-right: 134px;
+  border-radius: 5px;
+  background: #060C11;
+}
+.card-4{
+  border-radius: 5px;
+
+  box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+  border: none;
+  margin-bottom: 30px;
+
+  transition: all 0.3s ease-in-out;
+  width: 90%;
+  padding: 12px;
+  padding-right: 12px;
+padding-right: 161px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgba(136, 81, 243, 0.30) 0%, rgba(39, 54, 72, 0.55) 100%);
+}
+
+.card-text1{
+  color: #FBFBFB;
+  font-family: Montserrat;
+  font-size: 19px;
+  position: relative;
+  left: 35px;
+  top: -7px;
+}
+.card-text2{
+  color: #FBFBFB;
+  font-family: Montserrat;
+  font-size: 19px;
+  position: relative;
+  left: 41px;
+  top: 6px;
+}
+
+.card-text3{
+  color: #FBFBFB;
+font-family: Montserrat;
+font-size: 19px;
+position: relative;
+left: 54px;
+top: 7px;
+}

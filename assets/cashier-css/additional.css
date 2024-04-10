@@ -1,0 +1,106 @@
+.dashboard-tile{
+    /* margin-bottom: 6px; */
+    position: relative;
+    bottom: 14px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    /* right: 2px; */
+    left: 42%;
+}
+.dollar-sign-1{
+    position: relative;
+    top: 6px;
+   
+    left: 24px;
+}
+.doted-slash-1{
+    position: relative;
+    top: 14px;
+    left: 30px;
+}
+
+.Rough-Amount{
+    position: relative;
+    left: 62px;
+    bottom: 31px;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.amount-digits{
+    position: relative;
+    left: 63px;
+    bottom: 22px;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.Payement-sign{
+    position: relative;
+    top: 5px;
+left: 24px;
+}
+
+.Payement-detail{
+    position: relative;
+    left: 62px;
+    bottom: 31px;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.random-date{
+    position: relative;
+    left: 63px;
+    bottom: 22px;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.chain-title{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+position: relative;
+bottom: 2px;
+}
+
+.New-payement{
+    position: relative;
+    bottom: 31px;
+    left: 54pc;
+    width: 135px;
+    height: 33px;
+}
+
+.printer-img-casheir-invoice{
+    position: relative;
+    left: 2px;
+    top: 1px;
+}
+.printer-img-casheir-print{
+    position: relative;
+    left: 12px;
+    top: 2px;
+}
